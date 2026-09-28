@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear Cuenta - El Sabor Explosivo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Bebas Neue', 'Anton', 'Impact', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="registro" class="min-h-screen flex flex-col bg-amber-50">
+  <div data-header></div>
+
+  <main class="flex-1 container-page px-4 py-10">
+    <div class="max-w-md mx-auto">
+      <div class="text-center mb-8">
+        <div class="w-20 h-20 bg-gradient-to-br from-red-500 to-yellow-500 rounded-2xl flex items-center justify-center text-4xl mx-auto mb-4 shadow-lg">🍔</div>
+        <h1 class="font-display text-4xl font-bold text-gray-900">Crear Cuenta</h1>
+        <p class="text-gray-600 mt-2">Únete y disfruta de beneficios exclusivos</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl p-8">
+        <form id="registro-form" class="space-y-4">
+          <div class="form-group">
+            <label>Nombre completo *</label>
+            <input name="nombre" type="text" required placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label>Email *</label>
+            <input name="email" type="email" required placeholder="tu@email.com">
+          </div>
+          <div class="form-group">
+            <label>Teléfono</label>
+            <input name="telefono" type="tel" placeholder="(555) 123-4567">
+          </div>
+          <div class="form-group">
+            <label>Dirección</label>
+            <input name="direccion" type="text" placeholder="Calle, número, ciudad">
+          </div>
+          <div class="form-group">
+            <label>Contraseña * (mínimo 6 caracteres)</label>
+            <input name="password" type="password" required minlength="6" placeholder="Crea una contraseña">
+          </div>
+          <div class="form-group">
+            <label>Confirmar contraseña *</label>
+            <input name="password2" type="password" required minlength="6" placeholder="Repite tu contraseña">
+          </div>
+          <button type="submit" class="btn-primary w-full py-4 text-lg">🚀 Crear mi cuenta</button>
+        </form>
+
+        <div class="mt-6 text-center">
+          <p class="text-gray-600">¿Ya tienes cuenta? <a href="login.html" class="text-red-600 font-bold hover:underline">Inicia sesión</a></p>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-yellow-50 border border-yellow-200 rounded-xl p-4 text-sm text-gray-700">
+        <p class="font-bold mb-1">💡 Cuentas de prueba:</p>
+        <p>• <strong>carlos@ejemplo.com</strong> / 123456</p>
+        <p>• <strong>lucia@ejemplo.com</strong> / 123456</p>
+      </div>
+    </div>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

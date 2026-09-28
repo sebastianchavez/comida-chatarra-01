@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Sabor Explosivo - Hamburguesas, Hot Dogs & Más</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Bebas Neue', 'Anton', 'Impact', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home" class="min-h-screen flex flex-col bg-amber-50">
+  <div data-header></div>
+
+  <main class="flex-1">
+    <section class="relative overflow-hidden hero-gradient pt-12 pb-24 md:pt-20 md:pb-32">
+      <div class="absolute inset-0 bg-grid-pattern opacity-40"></div>
+      <div class="absolute top-20 right-20 w-72 h-72 bg-red-300 rounded-full blur-3xl opacity-40"></div>
+      <div class="absolute bottom-20 left-20 w-64 h-64 bg-yellow-300 rounded-full blur-3xl opacity-30"></div>
+
+      <div class="container-page relative px-4">
+        <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div class="animate-fade-in">
+            <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full shadow-sm border border-red-200 mb-6">
+              <span class="text-sm font-bold text-red-600">🔥 Desde 2010</span>
+              <span class="text-gray-400">•</span>
+              <span class="text-sm font-medium text-gray-700">Sabor que explota</span>
+            </div>
+            <h1 class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-900 leading-[1] mb-6">
+              COMIDA<br>
+              <span class="gradient-text">EXPLOSIVA</span><br>
+              <span class="text-3xl sm:text-4xl md:text-5xl">a tu puerta</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed max-w-lg">
+              Hamburguesas a la parrilla, hot dogs especiales, papas crujientes y mucho más. Delivery rápido y comida caliente garantizada.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="productos.html" class="btn-primary text-lg">
+                🍔 Ver Menú
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+              </a>
+              <a href="contacto.html" class="btn-secondary">📍 Ubicación</a>
+            </div>
+            <div class="mt-12 grid grid-cols-3 gap-6 max-w-md">
+              <div>
+                <p class="font-display text-4xl font-bold text-red-600">14+</p>
+                <p class="text-sm text-gray-700 mt-1 font-medium">Años cocinando</p>
+              </div>
+              <div>
+                <p class="font-display text-4xl font-bold text-red-600">25k+</p>
+                <p class="text-sm text-gray-700 mt-1 font-medium">Clientes felices</p>
+              </div>
+              <div>
+                <p class="font-display text-4xl font-bold text-red-600">30min</p>
+                <p class="text-sm text-gray-700 mt-1 font-medium">Delivery express</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative animate-fade-in">
+            <div class="absolute -top-6 -left-6 w-32 h-32 bg-red-400 rounded-full blur-2xl opacity-50"></div>
+            <div class="absolute -bottom-6 -right-6 w-40 h-40 bg-yellow-400 rounded-full blur-2xl opacity-40"></div>
+            <div class="relative">
+              <div class="absolute -top-4 -right-4 bg-white rounded-2xl shadow-2xl p-4 z-10 animate-bounce-subtle" style="animation-duration: 4s">
+                <div class="flex items-center gap-2">
+                  <div class="flex text-yellow-400 text-lg">★★★★★</div>
+                  <span class="font-bold text-gray-900">4.8</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-0.5">+500 reseñas</p>
+              </div>
+              <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80" alt="Hamburguesa" class="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/5] border-4 border-white">
+              <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl p-4 z-10 animate-bounce-subtle" style="animation-duration: 5s">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 bg-gradient-to-br from-red-500 to-yellow-500 rounded-full flex items-center justify-center text-white font-bold">R</div>
+                  <div>
+                    <p class="font-bold text-sm text-gray-900">Roberto P.</p>
+                    <p class="text-xs text-red-600">¡Increíble sabor!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="container-page px-4">
+        <div class="text-center mb-14">
+          <p class="text-sm font-bold tracking-widest text-red-600 mb-2">EXPLORA NUESTRO MENÚ</p>
+          <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900">Categorías</h2>
+        </div>
+        <div id="categorias-grid" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4"></div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-amber-50">
+      <div class="container-page px-4">
+        <div class="text-center mb-14">
+          <p class="text-sm font-bold tracking-widest text-red-600 mb-2">LOS MÁS PEDIDOS</p>
+          <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900">Productos Destacados</h2>
+        </div>
+        <div id="destacados-grid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+        <div class="text-center mt-12">
+          <a href="productos.html" class="btn-primary inline-flex">Ver todo el menú →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 text-white">
+      <div class="container-page px-4">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p class="text-sm font-bold tracking-widest text-yellow-200 mb-2">🎉 OFERTA LIMITADA</p>
+            <h2 class="font-display text-5xl md:text-6xl font-bold mb-6">COMBO FAMILIAR<br>$65.00</h2>
+            <p class="text-xl mb-8 text-white/90">
+              4 hamburguesas clásicas + 2 papas grandes + 4 refrescos. ¡Para compartir en familia y ahorrar!
+            </p>
+            <a href="producto.html?id=p014" class="inline-flex items-center gap-2 bg-white text-red-600 hover:bg-yellow-100 font-bold py-4 px-8 rounded-xl shadow-lg transition">
+              Pedir ahora
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </div>
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80" alt="Combo Familiar" class="rounded-3xl shadow-2xl w-full">
+            <div class="absolute -top-6 -right-6 bg-yellow-400 text-gray-900 w-28 h-28 rounded-full flex items-center justify-center text-center font-display font-bold text-2xl shadow-2xl animate-bounce-subtle">
+              -20%<br>OFF
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="container-page px-4">
+        <div class="text-center mb-14">
+          <p class="text-sm font-bold tracking-widest text-red-600 mb-2">LO QUE DICEN NUESTROS CLIENTES</p>
+          <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900">Reseñas</h2>
+        </div>
+        <div id="testimonios-list" class="grid md:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-gray-900 text-white">
+      <div class="container-page px-4">
+        <div class="grid md:grid-cols-4 gap-8 text-center">
+          <div>
+            <div class="text-5xl mb-3">🚚</div>
+            <p class="font-display text-3xl text-yellow-400">30 min</p>
+            <p class="text-gray-400 text-sm">Delivery express</p>
+          </div>
+          <div>
+            <div class="text-5xl mb-3">🥩</div>
+            <p class="font-display text-3xl text-yellow-400">100%</p>
+            <p class="text-gray-400 text-sm">Carne de res</p>
+          </div>
+          <div>
+            <div class="text-5xl mb-3">🔥</div>
+            <p class="font-display text-3xl text-yellow-400">Recién</p>
+            <p class="text-gray-400 text-sm">Hecho al momento</p>
+          </div>
+          <div>
+            <div class="text-5xl mb-3">💯</div>
+            <p class="font-display text-3xl text-yellow-400">Gratis</p>
+            <p class="text-gray-400 text-sm">En pedidos +$80</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

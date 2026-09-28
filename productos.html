@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - El Sabor Explosivo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Bebas Neue', 'Anton', 'Impact', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="productos" class="min-h-screen flex flex-col bg-amber-50">
+  <div data-header></div>
+
+  <main class="flex-1 container-page px-4 py-10">
+    <div class="mb-8">
+      <p class="text-sm font-bold tracking-widest text-red-600 mb-2">NUESTRO MENÚ</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4">Todos los productos</h1>
+      <p class="text-gray-600"><span id="contador-productos" class="font-bold text-red-600">0</span> productos disponibles</p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-md p-5 mb-8 sticky top-32 z-30">
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="md:col-span-2">
+          <label class="text-xs font-bold text-gray-500 mb-2 block tracking-wider">CATEGORÍAS</label>
+          <div id="filtros-categorias" class="flex flex-wrap gap-2"></div>
+        </div>
+        <div class="space-y-3">
+          <div>
+            <label class="text-xs font-bold text-gray-500 mb-1 block tracking-wider">BUSCAR</label>
+            <input id="buscar" type="text" placeholder="Buscar producto..." class="w-full px-4 py-2 border-2 border-gray-200 rounded-lg focus:border-red-600 focus:outline-none">
+          </div>
+          <div>
+            <label class="text-xs font-bold text-gray-500 mb-1 block tracking-wider">ORDENAR POR</label>
+            <select id="ordenar" class="w-full px-4 py-2 border-2 border-gray-200 rounded-lg focus:border-red-600 focus:outline-none">
+              <option value="destacados">Destacados</option>
+              <option value="precio-asc">Precio: menor a mayor</option>
+              <option value="precio-desc">Precio: mayor a menor</option>
+              <option value="nombre">Nombre A-Z</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="productos-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"></div>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
