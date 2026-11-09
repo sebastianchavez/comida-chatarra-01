@@ -14,7 +14,7 @@ function renderHeader() {
           <div class="flex items-center gap-2 sm:gap-4">
             <span class="flex items-center gap-1">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-              (555) 123-4567
+              +56 2 2345 6789
             </span>
             <span class="hidden sm:flex items-center gap-1">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"/></svg>
@@ -22,7 +22,7 @@ function renderHeader() {
             </span>
           </div>
           <div class="flex items-center gap-3">
-            <span class="hidden md:inline">🍔 Delivery gratis en pedidos +$80</span>
+            <span class="hidden md:inline">🍔 Delivery gratis en pedidos +$80.000</span>
           </div>
         </div>
       </div>
@@ -170,9 +170,9 @@ function renderFooter() {
             </ul>
             <div class="mt-6">
               <h4 class="text-white font-bold mb-2">Contacto</h4>
-              <p class="text-sm">📍 Av. Principal 123, Ciudad</p>
-              <p class="text-sm">📞 (555) 123-4567</p>
-              <p class="text-sm">✉️ hola@elsaborexplosivo.com</p>
+              <p class="text-sm">📍 Av. Principal 123, Santiago, Chile</p>
+              <p class="text-sm">📞 +56 2 2345 6789</p>
+              <p class="text-sm">✉️ hola@elsaborexplosivo.cl</p>
             </div>
           </div>
         </div>

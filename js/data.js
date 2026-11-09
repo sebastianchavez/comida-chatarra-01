@@ -13,7 +13,7 @@ const PRODUCTOS = [
     id: 'p001',
     nombre: 'Hamburguesa Clásica',
     categoria: 'hamburguesas',
-    precio: 18.00,
+    precio: 18000,
     imagen: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80',
     descripcion: 'Nuestra hamburguesa insignia: carne de res 150g a la parrilla, queso cheddar derretido, lechuga fresca, tomate, cebolla y nuestra salsa secreta en pan brioche tostado.',
     ingredientes: 'Carne de res 150g, pan brioche, queso cheddar, lechuga, tomate, cebolla, salsa de la casa',
@@ -24,7 +24,7 @@ const PRODUCTOS = [
     id: 'p002',
     nombre: 'Doble Queso BBQ',
     categoria: 'hamburguesas',
-    precio: 24.00,
+    precio: 24000,
     imagen: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80',
     descripcion: 'Doble carne de res, doble queso cheddar, tocino crujiente, aros de cebolla y abundante salsa BBQ ahumada. Para los más hambrientos.',
     ingredientes: 'Doble carne 300g, doble queso cheddar, tocino, aros de cebolla, salsa BBQ',
@@ -35,7 +35,7 @@ const PRODUCTOS = [
     id: 'p003',
     nombre: 'Hamburguesa BBQ Bacon',
     categoria: 'hamburguesas',
-    precio: 22.00,
+    precio: 22000,
     imagen: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=600&q=80',
     descripcion: 'Carne de res a la parrilla, tocino ahumado, queso cheddar, cebolla caramelizada, pickles y nuestra salsa BBQ de la casa.',
     ingredientes: 'Carne 150g, tocino ahumado, queso cheddar, cebolla caramelizada, pickles, salsa BBQ',
@@ -46,7 +46,7 @@ const PRODUCTOS = [
     id: 'p004',
     nombre: 'Hamburguesa Veggie',
     categoria: 'hamburguesas',
-    precio: 19.00,
+    precio: 19000,
     imagen: 'https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?w=600&q=80',
     descripcion: 'Hamburguesa 100% vegetal a base de garbanzos y quinoa, con queso mozzarella, palta, rúcula y alioli de ajo.',
     ingredientes: 'Medallón de garbanzos y quinoa, mozzarella, palta, rúcula, alioli de ajo',
@@ -57,7 +57,7 @@ const PRODUCTOS = [
     id: 'p005',
     nombre: 'Papas Fritas Clásicas',
     categoria: 'papas',
-    precio: 7.00,
+    precio: 7000,
     imagen: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80',
     descripcion: 'Papas cortadas a mano, fritas en aceite vegetal hasta quedar doradas y crujientes. Servidas con sal marina.',
     ingredientes: 'Papas frescas, aceite vegetal, sal marina',
@@ -68,7 +68,7 @@ const PRODUCTOS = [
     id: 'p006',
     nombre: 'Papas con Queso y Tocino',
     categoria: 'papas',
-    precio: 12.00,
+    precio: 12000,
     imagen: 'https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&q=80',
     descripcion: 'Papas fritas crocantes cubiertas con queso cheddar derretido, trozos de tocino ahumado y cebollín fresco.',
     ingredientes: 'Papas, queso cheddar, tocino, cebollín',
@@ -79,7 +79,7 @@ const PRODUCTOS = [
     id: 'p007',
     nombre: 'Aros de Cebolla',
     categoria: 'papas',
-    precio: 9.00,
+    precio: 9000,
     imagen: 'https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&q=80',
     descripcion: 'Aros de cebolla empanizados y fritos hasta quedar dorados y crujientes. Acompañados de salsa ranch.',
     ingredientes: 'Cebolla, harina, pan rallado, especias, salsa ranch',
@@ -90,7 +90,7 @@ const PRODUCTOS = [
     id: 'p008',
     nombre: 'Hot Dog Especial',
     categoria: 'hotdogs',
-    precio: 14.00,
+    precio: 14000,
     imagen: 'https://images.unsplash.com/photo-1612392062798-2bb6fcae7c4d?w=600&q=80',
     descripcion: 'Salchicha premium 100% res en pan artesanal, con cebolla caramelizada, mostaza Dijon, ketchup y chucrut.',
     ingredientes: 'Salchicha premium, pan artesanal, cebolla caramelizada, mostaza, ketchup, chucrut',
@@ -101,7 +101,7 @@ const PRODUCTOS = [
     id: 'p009',
     nombre: 'Hot Dog Chili Cheese',
     categoria: 'hotdogs',
-    precio: 16.00,
+    precio: 16000,
     imagen: 'https://images.unsplash.com/photo-1599050751795-6cdaafbc2319?w=600&q=80',
     descripcion: 'Salchicha premium, chili con carne, queso cheddar fundido, cebolla blanca y jalapeños. Explosión de sabor.',
     ingredientes: 'Salchicha premium, chili con carne, queso cheddar, cebolla, jalapeños',
@@ -112,7 +112,7 @@ const PRODUCTOS = [
     id: 'p010',
     nombre: 'Pizza Pepperoni',
     categoria: 'pizzas',
-    precio: 28.00,
+    precio: 28000,
     imagen: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&q=80',
     descripcion: 'Masa artesanal, salsa de tomate San Marzano, mozzarella y abundante pepperoni ligeramente picante. 8 porciones.',
     ingredientes: 'Masa artesanal, salsa San Marzano, mozzarella, pepperoni',
@@ -123,7 +123,7 @@ const PRODUCTOS = [
     id: 'p011',
     nombre: 'Pizza Hawaiana',
     categoria: 'pizzas',
-    precio: 26.00,
+    precio: 26000,
     imagen: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80',
     descripcion: 'Clásica pizza con jamón, piña en trozos y mozzarella sobre masa artesanal. El debate eterno, el placer garantizado.',
     ingredientes: 'Masa artesanal, salsa de tomate, jamón, piña, mozzarella',
@@ -134,7 +134,7 @@ const PRODUCTOS = [
     id: 'p012',
     nombre: 'Refresco de Cola',
     categoria: 'bebidas',
-    precio: 5.00,
+    precio: 5000,
     imagen: 'https://images.unsplash.com/photo-1581636625402-29b2a704ef13?w=600&q=80',
     descripcion: 'Refresco de cola bien helado en vaso de 500ml con hielo. El compañero inseparable de tu comida.',
     ingredientes: 'Refresco de cola, hielo',
@@ -145,7 +145,7 @@ const PRODUCTOS = [
     id: 'p013',
     nombre: 'Malteada de Chocolate',
     categoria: 'bebidas',
-    precio: 9.00,
+    precio: 9000,
     imagen: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&q=80',
     descripcion: 'Cremosa malteada de chocolate con helado artesanal, leche entera y topping de crema batida.',
     ingredientes: 'Helado de chocolate, leche entera, crema batida',
@@ -156,7 +156,7 @@ const PRODUCTOS = [
     id: 'p014',
     nombre: 'Combo Familiar',
     categoria: 'combos',
-    precio: 65.00,
+    precio: 65000,
     imagen: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&q=80',
     descripcion: '4 hamburguesas clásicas + 2 porciones grandes de papas + 4 refrescos. Ideal para compartir en familia.',
     ingredientes: '4 hamburguesas clásicas, 2 papas grandes, 4 refrescos',
@@ -167,7 +167,7 @@ const PRODUCTOS = [
     id: 'p015',
     nombre: 'Combo Pareja',
     categoria: 'combos',
-    precio: 42.00,
+    precio: 42000,
     imagen: 'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=600&q=80',
     descripcion: '2 hamburguesas BBQ Bacon + 1 papas con queso + 2 refrescos. La combinación perfecta para dos.',
     ingredientes: '2 hamburguesas BBQ Bacon, 1 papas con queso, 2 refrescos',
@@ -178,7 +178,7 @@ const PRODUCTOS = [
     id: 'p016',
     nombre: 'Combo Infantil',
     categoria: 'combos',
-    precio: 18.00,
+    precio: 18000,
     imagen: 'https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600&q=80',
     descripcion: 'Mini hamburguesa + papas pequeñas + jugo de caja + juguete sorpresa. Diversión asegurada para los más pequeños.',
     ingredientes: 'Mini hamburguesa, papas pequeñas, jugo, juguete',
@@ -189,7 +189,7 @@ const PRODUCTOS = [
     id: 'p017',
     nombre: 'Helado de Cono',
     categoria: 'postres',
-    precio: 6.00,
+    precio: 6000,
     imagen: 'https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=600&q=80',
     descripcion: 'Cono crujiente con dos bolas de helado a elección: vainilla, chocolate, fresa o cookies & cream.',
     ingredientes: 'Cono, helado artesanal',
@@ -200,7 +200,7 @@ const PRODUCTOS = [
     id: 'p018',
     nombre: 'Brownie con Helado',
     categoria: 'postres',
-    precio: 10.00,
+    precio: 10000,
     imagen: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80',
     descripcion: 'Brownie tibio de chocolate con bola de helado de vainilla, salsa de chocolate caliente y nueces picadas.',
     ingredientes: 'Brownie de chocolate, helado de vainilla, salsa de chocolate, nueces',
@@ -263,15 +263,15 @@ const PEDIDOS_INICIALES = [
     fecha: '2024-09-15',
     estado: 'Entregado',
     productos: [
-      { id: 'p001', nombre: 'Hamburguesa Clásica', precio: 18.00, cantidad: 2, imagen: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&q=80' },
-      { id: 'p005', nombre: 'Papas Fritas Clásicas', precio: 7.00, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200&q=80' },
-      { id: 'p012', nombre: 'Refresco de Cola', precio: 5.00, cantidad: 2, imagen: 'https://images.unsplash.com/photo-1581636625402-29b2a704ef13?w=200&q=80' }
+      { id: 'p001', nombre: 'Hamburguesa Clásica', precio: 18000, cantidad: 2, imagen: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&q=80' },
+      { id: 'p005', nombre: 'Papas Fritas Clásicas', precio: 7000, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200&q=80' },
+      { id: 'p012', nombre: 'Refresco de Cola', precio: 5000, cantidad: 2, imagen: 'https://images.unsplash.com/photo-1581636625402-29b2a704ef13?w=200&q=80' }
     ],
-    subtotal: 53.00,
-    envio: 5.00,
-    total: 58.00,
+    subtotal: 53000,
+    envio: 5000,
+    total: 58000,
     tipoEnvio: 'Estándar (45-60 min)',
-    direccion: { nombre: 'Carlos Méndez', telefono: '555-1234', calle: 'Av. Principal 123', ciudad: 'Ciudad', codigoPostal: '12345' },
+    direccion: { nombre: 'Carlos Méndez', telefono: '+56 9 1234 5678', calle: 'Av. Principal 123', ciudad: 'Santiago', codigoPostal: '7500000' },
     metodoPago: 'Efectivo contra entrega'
   },
   {
@@ -280,13 +280,13 @@ const PEDIDOS_INICIALES = [
     fecha: '2024-09-20',
     estado: 'En camino',
     productos: [
-      { id: 'p014', nombre: 'Combo Familiar', precio: 65.00, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=200&q=80' }
+      { id: 'p014', nombre: 'Combo Familiar', precio: 65000, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=200&q=80' }
     ],
-    subtotal: 65.00,
-    envio: 8.00,
-    total: 73.00,
+    subtotal: 65000,
+    envio: 8000,
+    total: 73000,
     tipoEnvio: 'Express (20-30 min)',
-    direccion: { nombre: 'Carlos Méndez', telefono: '555-1234', calle: 'Av. Principal 123', ciudad: 'Ciudad', codigoPostal: '12345' },
+    direccion: { nombre: 'Carlos Méndez', telefono: '+56 9 1234 5678', calle: 'Av. Principal 123', ciudad: 'Santiago', codigoPostal: '7500000' },
     metodoPago: 'Tarjeta de Crédito'
   },
   {
@@ -295,14 +295,14 @@ const PEDIDOS_INICIALES = [
     fecha: '2024-09-25',
     estado: 'Procesando',
     productos: [
-      { id: 'p010', nombre: 'Pizza Pepperoni', precio: 28.00, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?w=200&q=80' },
-      { id: 'p013', nombre: 'Malteada de Chocolate', precio: 9.00, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=200&q=80' }
+      { id: 'p010', nombre: 'Pizza Pepperoni', precio: 28000, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?w=200&q=80' },
+      { id: 'p013', nombre: 'Malteada de Chocolate', precio: 9000, cantidad: 1, imagen: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=200&q=80' }
     ],
-    subtotal: 37.00,
-    envio: 5.00,
-    total: 42.00,
+    subtotal: 37000,
+    envio: 5000,
+    total: 42000,
     tipoEnvio: 'Estándar (45-60 min)',
-    direccion: { nombre: 'Carlos Méndez', telefono: '555-1234', calle: 'Av. Principal 123', ciudad: 'Ciudad', codigoPostal: '12345' },
+    direccion: { nombre: 'Carlos Méndez', telefono: '+56 9 1234 5678', calle: 'Av. Principal 123', ciudad: 'Santiago', codigoPostal: '7500000' },
     metodoPago: 'Yape / Plin'
   }
 ];
@@ -313,8 +313,8 @@ const USUARIOS_INICIALES = [
     nombre: 'Carlos Méndez',
     email: 'carlos@ejemplo.com',
     password: '123456',
-    telefono: '555-1234',
-    direccion: 'Av. Principal 123, Ciudad',
+    telefono: '+56 9 1234 5678',
+    direccion: 'Av. Principal 123, Santiago, Chile',
     fechaRegistro: '2024-01-15'
   },
   {
@@ -322,19 +322,19 @@ const USUARIOS_INICIALES = [
     nombre: 'Lucía Vargas',
     email: 'lucia@ejemplo.com',
     password: '123456',
-    telefono: '555-5678',
-    direccion: 'Calle Secundaria 456, Ciudad',
+    telefono: '+56 9 8765 4321',
+    direccion: 'Calle Secundaria 456, Santiago, Chile',
     fechaRegistro: '2024-03-20'
   }
 ];
 
 function formatearPrecio(precio) {
-  return `$${precio.toFixed(2)}`;
+  return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 }).format(Number(precio));
 }
 
 function formatearFecha(fecha) {
   const d = new Date(fecha);
-  return d.toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' });
+  return d.toLocaleDateString('es-CL', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 function generarIdPedido() {

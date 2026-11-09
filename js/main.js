@@ -422,7 +422,7 @@ function initCheckout() {
             </div>
             <div class="form-group">
               <label>Código Postal</label>
-              <input name="codigoPostal" value="12345">
+              <input name="codigoPostal" value="7500000">
             </div>
             <div class="form-group sm:col-span-2">
               <label>Referencia</label>
@@ -448,7 +448,7 @@ function initCheckout() {
                 <p class="font-bold">Estándar (45-60 min)</p>
                 <p class="text-sm text-gray-600">Delivery normal a tu domicilio</p>
               </div>
-              <span class="font-bold text-gray-700">$5.00</span>
+              <span class="font-bold text-gray-700">$5.000</span>
             </label>
             <label class="flex items-start gap-3 p-4 border-2 border-gray-200 rounded-xl cursor-pointer hover:border-red-500 has-[:checked]:border-red-600 has-[:checked]:bg-red-50 transition">
               <input type="radio" name="tipoEnvio" value="express" class="mt-1">
@@ -456,7 +456,7 @@ function initCheckout() {
                 <p class="font-bold">Express (20-30 min)</p>
                 <p class="text-sm text-gray-600">Delivery prioritario, llega más rápido</p>
               </div>
-              <span class="font-bold text-red-600">$10.00</span>
+              <span class="font-bold text-red-600">$10.000</span>
             </label>
           </div>
         </section>
@@ -504,10 +504,10 @@ function initCheckout() {
         </div>
         <div class="border-t pt-3 space-y-2 text-sm">
           <div class="flex justify-between"><span>Subtotal</span><span id="ck-subtotal" class="font-bold">${formatearPrecio(subtotal)}</span></div>
-          <div class="flex justify-between"><span>Envío</span><span id="ck-envio" class="font-bold">$5.00</span></div>
+          <div class="flex justify-between"><span>Envío</span><span id="ck-envio" class="font-bold">$5.000</span></div>
         </div>
         <div class="border-t pt-3 mt-3">
-          <div class="flex justify-between text-lg font-bold"><span>Total</span><span id="ck-total" class="text-red-600">${formatearPrecio(subtotal + 5)}</span></div>
+          <div class="flex justify-between text-lg font-bold"><span>Total</span><span id="ck-total" class="text-red-600">${formatearPrecio(subtotal + 5000)}</span></div>
         </div>
         <button type="submit" class="btn-primary w-full mt-6 py-4 text-lg">✓ Confirmar pedido</button>
         <a href="carrito.html" class="block text-center text-gray-600 hover:text-red-600 text-sm mt-3">← Volver al carrito</a>
@@ -594,8 +594,8 @@ function initConfirmacion() {
       <div class="flex justify-between items-start border-b pb-6 mb-6">
         <div>
           <h2 class="font-display text-2xl font-bold">🍔 El Sabor Explosivo</h2>
-          <p class="text-sm text-gray-500">Av. Principal 123, Ciudad</p>
-          <p class="text-sm text-gray-500">Tel: (555) 123-4567</p>
+          <p class="text-sm text-gray-500">Av. Principal 123, Santiago, Chile</p>
+          <p class="text-sm text-gray-500">Tel: +56 2 2345 6789</p>
         </div>
         <div class="text-right">
           <p class="text-xs text-gray-500">COMPROBANTE</p>
@@ -692,7 +692,7 @@ function initPerfil() {
               <p class="text-xs text-gray-600">Pedidos</p>
             </div>
             <div class="bg-yellow-50 p-3 rounded-lg">
-              <p class="text-2xl font-bold text-yellow-600">$${pedidos.reduce((a, p) => a + p.total, 0).toFixed(0)}</p>
+              <p class="text-2xl font-bold text-yellow-600">$${pedidos.reduce((a, p) => a + p.total, 0).toLocaleString('es-CL')}</p>
               <p class="text-xs text-gray-600">Gastado</p>
             </div>
           </div>

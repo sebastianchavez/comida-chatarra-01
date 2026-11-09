@@ -65,8 +65,8 @@ function calcularSubtotal() {
 function calcularEnvio(tipoEnvio) {
   const map = {
     'retiro': 0,
-    'estandar': 5,
-    'express': 10
+    'estandar': 5000,
+    'express': 10000
   };
   return map[tipoEnvio] !== undefined ? map[tipoEnvio] : 5;
 }
